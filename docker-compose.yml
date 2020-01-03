@@ -42,7 +42,7 @@ services:
         volumes:
             - ./src:/var/www
         ports:
-            - "8000:9000"
+            - "9000:9000"
         networks:
             - laravel
 
